@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #000;
+    background-color: #452703;
 }
 
 .title { 
@@ -16,10 +16,6 @@ body {
     height: 30px;
 }
 
-/* h1 {
-    font-size: 16px;
-} */
-
 .col-1 {
     display: flex;
     flex-direction: column;
@@ -27,7 +23,7 @@ body {
     align-items: center;
 }
 
-.game-backdrop {
+.game-artwork {
     border: 3px solid #ff0000;
     position: relative;
 
@@ -36,13 +32,39 @@ body {
     background-color: #ff0000;
     border: 3px solid #000;
     position: absolute;
-    bottom: 11%;
+    top: 14%;
     left: 25%;
-    height: 70%;
+    height: 50%;
     width: 50%;
  }
 
+ .game-top-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
 
+ .game-bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .game-guesses {
+     display: flex;
+     flex-direction: row;
+ }
+
+.col-6 {
+    display: flex;
+    width: 50%;
+    text-align: center;
+}
+.col-12 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
 .artist-attribute {
     color: #fff;
 }
