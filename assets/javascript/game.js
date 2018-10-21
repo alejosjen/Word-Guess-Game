@@ -71,6 +71,7 @@ document.addEventListener('keypress', (event) => {
              document.querySelector(".incorrect-letters").textContent = wrongLetterArr;
              document.querySelector(".guesses-remaining").textContent = guessesRemaining;
          } */
+         
          //Testing code to display letters in guessed letters area.
          //Still need to figure out how to display the wrong letters in the wrong letters array
          //because the above code is funky and repeats everything due to the forEach function
