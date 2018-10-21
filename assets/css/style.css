@@ -50,18 +50,39 @@ body {
     align-items: center;
  }
 
+ .hidden-word-title {
+     height: 220px;
+     margin-top: 20px;
+ }
+.clue-title {
+    font-family: 'Diplomata', cursive;
+    margin-bottom: 30px;
+
+}
+ #start {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     height: 50px;
+ }
+
  .game-guesses {
      display: flex;
      flex-direction: row;
+     align-content: center;
+     justify-content: center;
+     height: 60px;
  }
 
 .col-6 {
     display: flex;
+    flex-direction: column;
     width: 50%;
     text-align: center;
 }
 .col-12 {
     display: flex;
+    flex-direction: column;
     width: 100%;
     text-align: center;
 }
