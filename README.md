@@ -1,4 +1,4 @@
-# Word-Guess-Game
+# [Word-Guess-Game](https://alejosjen.github.io/Word-Guess-Game/)
 This project is a simple hangman style game with a theme of guessing the fairy tale the words come from. 
 
 The javascript has code to help split, iterate, and display individual letters. However, that is a good thing, I am stuck on how to stop displaying all of the iterations.
